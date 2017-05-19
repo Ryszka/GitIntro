@@ -1,32 +1,59 @@
-# Prerequisites
-*.d
+syntax: glob
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+*.pdb
+*.suo
 *.obj
+*.user
+*.orig
+*.xap
+*.tmp
+*.sln.ide
+*.user
+*.rej
+*.log
+bin/
+Bin/
+Obj/
+obj/
+packages/
+TestResults/
+*TestResult*.xml
+publish/
+ClientBin/
+_references.js
+UpgradeLog*.htm
 
-# Precompiled Headers
-*.gch
-*.pch
+node_modules/
+bower_components/
+.idea/
+.vs/
+.vscode/
+wwwroot/bundles/
+wwwroot/lib/
+wwwroot/css/site.css
+wwwroot/css/site.min.css
+wwwroot/css/touch.css
+wwwroot/css/touch.min.css
+wwwroot/css/takeoff.css
+wwwroot/takeoff/
+wwwroot/kiosk/
+aspen_search/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+*.lock.json
+*project.lock.json
+project.lock.json
+bundle.result.json
+jshint-output.log
+Takeoff/Client/frameworks
+src/Web/Sm.Aspen.Web/wwwroot/css/takeoff.css
+src/Web/Sm.Aspen.Web/wwwroot/web.config
+src/Tools/Sm.Aspen.Mathematics/Sm.Aspen.Mathematics.nuget.targets
+appsettings.Public*.json
+**/*beta*.publishsettings
+**/PUBLIC*.publishsettings
+**/Public*.publishsettings
+**/public*.publishsettings
+npm-debug.log
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+data/
+data_*/
